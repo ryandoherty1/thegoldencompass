@@ -12,6 +12,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	margin:0;
+	overflow-x: hidden;
 	background-image: radial-gradient(#c2b280,#e1d9c7);
 }
 
@@ -202,6 +203,13 @@ img {
 
 a {
 	text-decoration: none;
+}
+}
+
+@media only screen and (max-width: 546px) {
+	h1 {
+	font-size: 34px;
+	color: #056380;
 }
 }
 
