@@ -1,0 +1,227 @@
+h1 {
+	font-size: 56px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 36px;
+	color: #31A7CC;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin:0;
+	background-image: radial-gradient(#c2b280,#e1d9c7);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #B08D57;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #5689B0;
+  color: #E3DBCF;
+}
+
+.main {
+  margin-top: 30px;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+.titlebar {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	margin: 0px;
+}
+
+.contentbar {
+	height:90%;
+	width: 100%;
+	display: flex;
+}
+.content1 {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+.content2 {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.textbar {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.imgbar {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-content: center;
+}
+
+img {
+	border-radius: 3%;
+}
+.restrict-img {
+	max-height: 80%;
+	max-width: 80%;
+}
+.img-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {
+	font-size: 36px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 22px;
+	color: #31A7CC;
+}
+
+body {
+	margin:0;
+	padding: 0;
+	background-image: radial-gradient(#c2b280,#e1d9c7);
+	max-height:812px;
+	max-width: 375px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #B08D57;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #5689B0;
+  color: #E3DBCF;
+}
+
+.main {
+  margin-top: 30px;
+  height: 90%; /* Used in this example to enable scrolling */
+  display: block;
+}
+
+.titlebar {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.contentbar {
+	padding-left: 0px;
+	height:90%;
+	width: 100%;
+	display: block;
+}
+.content1 {
+	margin: 10px;
+	height: 50%;
+	width: 100%;
+	display: block;
+}
+.content2 {
+	margin: 10px;
+	height: 50%;
+	width: 100%;
+	display: block;
+}
+
+.textbar {
+	height: 10%;
+	width: 100%;
+	margin-bottom: 5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgbar {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+img {
+	border-radius: 3%;
+}
+
+a {
+	text-decoration: none;
+}
+}
+
+@media only screen and (max-width: 374px) {
+	h1 {
+	font-size: 32px;
+	color: #056380;
+}
+
+h2 {
+	font-size: 18px;
+	color: #31A7CC;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #003A66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+}
