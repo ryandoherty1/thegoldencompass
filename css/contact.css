@@ -54,15 +54,53 @@ body {
 	display: flex;
 	justify-content:center;
 	align-content: center;
-	margin: 0px;
+	margin-bottom: 10px;
 }
+
+.content1 {
+	height: 45%;
+	width:100%;
+	display: flex;
+}
+.content2 {
+	height: 45%;
+	width:100%;
+	display: flex;
+}
+.person {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.pfp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:90%;
+	width: 100%;
+}
+.text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	align-text: center;
+	height:10%;
+	width: 100%;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
 img {
 	border-radius: 3%;
 }
 
 .restrict-img {
-	max-height: 80%;
-	max-width: 80%;
+	max-height: 50%;
+	max-width: 50%;
 }
 
 .img-link {
