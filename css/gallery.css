@@ -54,7 +54,7 @@ body {
 	display: flex;
 	justify-content:center;
 	align-content: center;
-	margin: 0px;
+	margin-bottom: 20px;
 }
 
 .content {
@@ -72,6 +72,7 @@ img {
 .restrict-img {
 	max-height: 25%;
 	max-width: 25%;
+	padding: 5px;
 }
 
 .img-link {
