@@ -33,6 +33,13 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+*{
+	font-family: times;
+}
+@font-face{
+	font-family: times;
+	src: url(fonts/times-new-roman.ttf);
+}
 
 .navbar a:hover {
   background: #5689B0;
@@ -61,16 +68,19 @@ body {
 	height: 45%;
 	width:100%;
 	display: flex;
+	margin: 20px;
 }
 .content2 {
 	height: 45%;
 	width:100%;
 	display: flex;
+	margin: 20px;
 }
 .person {
 	height: 100%;
 	width: 50%;
 	display: block;
+	margin: 20px;
 }
 
 .pfp {
@@ -79,13 +89,15 @@ body {
 	align-items: center;
 	height:90%;
 	width: 100%;
+	margin: 20px;
 }
 .text {
+	margin: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
-	align-text: center;
+	text-align: center;
 	height:10%;
 	width: 100%;
 }
