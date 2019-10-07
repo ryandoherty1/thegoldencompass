@@ -15,7 +15,7 @@ body {
 	overflow-x: hidden;
 	background-image: radial-gradient(#c2b280,#e1d9c7);
 }
-
+/* nav bar */
 .navbar {
   overflow: hidden;
   background-color: #B08D57;
@@ -23,7 +23,7 @@ body {
   top: 0;
   width: 100%;
 }
-
+/* nav bar  hyperlinks*/
 .navbar a {
   float: left;
   display: block;
@@ -33,14 +33,18 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
+/*font for everything */
 *{
 	font-family: times;
 }
+/* importing */
 @font-face{
 	font-family: times;
 	src: url(fonts/times-new-roman.ttf);
 }
 
+/* nav bar  hover over hyperlink*/
 .navbar a:hover {
   background: #5689B0;
   color: #E3DBCF;
